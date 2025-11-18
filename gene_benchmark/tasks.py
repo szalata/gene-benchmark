@@ -495,16 +495,18 @@ def _load_task_definitions_from_folder(
     """
     if tasks_folder is None:
         tasks_folder = Path(os.environ["GENE_BENCHMARK_TASKS_FOLDER"])
-    entities_file = get_lowest_entities_file(tasks_folder, task_name)
-    if not entities_file:
-        raise ValueError(
-            f"could not find an entities file between {tasks_folder/task_name} and {tasks_folder}"
-        )
+    else:
+        tasks_folder = Path(tasks_folder)
+        
+    # The fix is to make sure we're getting the path to the entities.csv file correctly.
+    # The previous error suggests that task_name is already a path from the tasks_folder.
+    task_path = tasks_folder / task_name
+    
     entities = pd.read_csv(
-        tasks_folder / entities_file, keep_default_na=keep_default_na
+        task_path / "entities.csv", keep_default_na=keep_default_na
     )
     outcomes = pd.read_csv(
-        Path(tasks_folder) / Path(task_name) / Path("outcomes.csv"),
+        task_path / "outcomes.csv",
         keep_default_na=keep_default_na,
     ).squeeze()
 

@@ -1,28 +1,28 @@
-- Pathways;Chromatin organization
-- Pathways;Vesicle-mediated transport
-- Pathways;Muscle contraction
-- Pathways;Immune System
-- Pathways;DNA Repair
-- Pathways;Protein localization
-- Pathways;Cellular responses to stimuli
-- Pathways;Metabolism of proteins
-- Pathways;DNA Replication
-- Pathways;Hemostasis
-- Pathways;Metabolism of RNA
-- Pathways;Extracellular matrix organization
-- Pathways;Metabolism
-- Pathways;Programmed Cell Death
-- Pathways;Signal Transduction
-- Pathways;Transport of small molecules
-- Pathways;Neuronal System
-- Pathways;Disease
-- Pathways;Sensory Perception
-- Pathways;Developmental Biology
-- Pathways;Autophagy
-- Pathways;Cell Cycle
-- Pathways;Organelle biogenesis and maintenance
-- Pathways;Gene expression (Transcription)
-- Pathways;Cell-Cell communication
+- Pathways HGNC;Chromatin organization
+- Pathways HGNC;Vesicle-mediated transport
+- Pathways HGNC;Muscle contraction
+- Pathways HGNC;Immune System
+- Pathways HGNC;DNA Repair
+- Pathways HGNC;Protein localization
+- Pathways HGNC;Cellular responses to stimuli
+- Pathways HGNC;Metabolism of proteins
+- Pathways HGNC;DNA Replication
+- Pathways HGNC;Hemostasis
+- Pathways HGNC;Metabolism of RNA
+- Pathways HGNC;Extracellular matrix organization
+- Pathways HGNC;Metabolism
+- Pathways HGNC;Programmed Cell Death
+- Pathways HGNC;Signal Transduction
+- Pathways HGNC;Transport of small molecules
+- Pathways HGNC;Neuronal System
+- Pathways HGNC;Disease
+- Pathways HGNC;Sensory Perception
+- Pathways HGNC;Developmental Biology
+- Pathways HGNC;Autophagy
+- Pathways HGNC;Cell Cycle
+- Pathways HGNC;Organelle biogenesis and maintenance
+- Pathways HGNC;Gene expression (Transcription)
+- Pathways HGNC;Cell-Cell communication
 - Molecular function;Ribonucleoprotein
 - Molecular function;Protease
 - Molecular function;Isomerase

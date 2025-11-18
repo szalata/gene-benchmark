@@ -1,7 +1,7 @@
 - TF vs non-TF
 - long vs short range TF
 - bivalent vs non-methylated
-- Lys4-only-methylated vs non-methylated
+- bivalent_vs_lys4_only
 - dosage sensitive vs insensitive TF
 - Gene2Gene
 - CCD Transcript
